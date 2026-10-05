@@ -1,0 +1,42 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local datasets and annotations
+/dataset/
+/testdata/
+/instances_val.json
+
+# Model checkpoints
+/weights/
+*.pth
+*.pt
+*.ckpt
+
+# Generated predictions, visualizations, and logs
+/debug_vis/
+/vis/
+/vis_test/
+/evaluation_results_last.json
+/submission.csv
+/training_log.txt
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+/.aws/
+/.codex/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
